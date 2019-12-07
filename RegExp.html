@@ -12,18 +12,18 @@
  </head>
  <body>
  	<script type="text/javascript">
- 		window.onload = function() {
- 			var index = document.querySelector("#index");
-            var ip = document.querySelector("#ip");
-            var dol = document.querySelector("#dol");
-            var date = document.querySelector("#date");
+		window.onload = function() {
+			var index = document.querySelector("#index")
+			var ip = document.querySelector("#ip");
+		    	var dol = document.querySelector("#dol");
+		    	var date = document.querySelector("#date");
 
-            indexButton.onclick = function() {
-            	var textIndex = index.value;
-            	var expIndex = /\d{1}/;
+            		indexButton.onclick = function() {
+            			var textIndex = index.value;
+            			var expIndex = /\d{1}/;
 	 			alert(expIndex.test(textIndex));
 	 			index.value = "";
-            }
+            		}
 	 		
 	 		ipButton.onclick = function() {
 	 			var textIp = ip.value;
